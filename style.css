@@ -1,0 +1,130 @@
+/* Logo header */
+.div-logo{
+	background-color: 	rgb(247, 244, 244) ;
+
+}
+.logo{
+	height: 130px;
+	width: 130px;
+}
+/* Menu */
+#menu-wrapper {
+	height: 56px;
+	background: rgb(247, 244, 244);
+}
+
+#menu {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 55px;
+	padding: 0px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 10	px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline-block;
+	border-color: rgba(255,255,255,.09);
+	border-right: 1px solid;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	margin: 0px 10px;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	color: rgb(84, 194, 50);
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a{
+	text-decoration: none;
+	color: rgb(207,206, 206);
+	background-color: rgb(84,194,50)
+    
+}
+#menu li:hover{
+	background-color: rgb(84, 194, 50);
+	color: rgb(207, 206, 206)	
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.searchbar{
+	display: flex;
+	align-content: center;
+	margin: 20px;
+	border: 0%;
+}
+
+/* Main content */
+.center{
+	border: solid 2px rgba(98, 99, 97, 0.171);
+	border-radius: 3px;
+	box-shadow: 20px;
+	margin: 10% 20%;
+	padding: 3em;
+	background-color: rgba(103, 194, 75, 0.7) ;
+}
+
+/* Footer */
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: 	rgb(247, 244, 244) ;
+
+}
+
+#footer{
+	width: 100%;
+	height: 50px;
+}
+
+#footer li{
+	padding: 0 10px 0 10px;
+	display: inline-block;
+}
+footer p{
+	text-align: center;
+	font-size: 0.8em;
+	margin: 0;
+	color: rgb(103, 194, 75);
+}
+
+footer a{
+	text-decoration: underline solid rgb(103, 194, 75);
+	color: rgb(84, 194, 50);
+}
